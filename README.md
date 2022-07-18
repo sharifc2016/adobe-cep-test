@@ -13,8 +13,8 @@ For windows ( From run cmd)
     Mac: /Users/<USERNAME>/Library/Preferences/com.adobe.CSXS.9.plist
 
 ### Add Debug:
-    Windows: Open regedit > HKEY_CURRENT_USER/Software/Adobe/CSXS.8, then add a new entry PlayerDebugMode of type “string” with the value of “1”.
-    Mac: In the Terminal, type: defaults write com.adobe.CSXS.8 PlayerDebugMode 1
+    Windows: Open regedit > HKEY_CURRENT_USER/Software/Adobe/CSXS.9, then add a new entry PlayerDebugMode of type “string” with the value of “1”.
+    Mac: In the Terminal, type: defaults write com.adobe.CSXS.9 PlayerDebugMode 1
 
 
  ## Set Debug mode
