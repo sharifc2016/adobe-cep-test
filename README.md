@@ -1,9 +1,28 @@
 # adobe-cep-test
 
-### Load Directory:
-    Windows: C:\Users\<USERNAME>\AppData\Local\Temp\cep_cache\
-    Mac: /Users/<USERNAME>/Library/Caches/CSXS/cep_cache/
+### Extension Folders
+CEP supports 3 types of extension folders.
 
+Product extension folder. Here is a suggestion, but each point product can decide where this folder should be. Third party extension can't be installed at this location.
+
+${PP}/CEP/extensions (PPs may use different folder.)
+
+#### System extension folder
+
+```
+Win(x86): C:\Program Files\Common Files\Adobe\CEP\extensions
+Win(x64): C:\Program Files (x86)\Common Files\Adobe\CEP\extensions, and C:\Program Files\Common Files\Adobe\CEP\extensions (since CEP 6.1)
+Mac: /Library/Application Support/Adobe/CEP/extensions
+
+```
+
+#### Per-user extension folder
+
+```
+Win: C:\Users\<USERNAME>\AppData\Roaming\Adobe\CEP/extensions
+Mac: ~/Library/Application Support/Adobe/CEP/extensions
+
+```
 
 ### The LogLevel key can be updated at the following location (The application should be restarted for the log level changes to take effect):
 
